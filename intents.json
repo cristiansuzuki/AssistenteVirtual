@@ -1,0 +1,28 @@
+{
+    "intents":[
+        {
+            "tag": "greeting",
+            "patterns": ["oi", "olá", "alo", "salve"],
+            "responses": ["Olá !", "Oi, eu sou sua assistente virtual !"]
+        },
+        {
+            "tag": "todoshow",
+            "patterns": ["Abrir lista de tarefas", "Tarefas de hoje", "Coisas pra fazer", "Todo list"],
+            "responses": ["Abrindo lista de tarefas..."]    
+        },
+        {
+            "tag":"todoadd",
+            "patterns": ["add ai"],
+            "responses": ["Adicionando na lista de tarefas..."]
+        },
+        {
+            "tag": "todoremove",
+            "patterns": ["tirar um item"]
+
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["tchau", "fechar", "sair"]
+        }
+        
+    ]}
