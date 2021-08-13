@@ -1,6 +1,7 @@
 from neuralintents import GenericAssistant
 import sys
 
+# tarefas
 todos = ['Lavar carro', 'Dar comida pros gatos', 'Estudar', 'Trabalhar']
 
 def todo_show():
